@@ -1,0 +1,10 @@
+  @Override
+	public E get(E element) {
+	    find(element);    
+	    if (found) {
+	      return list[location];
+	    }
+	    else {
+	      return null;
+	    }
+	}
